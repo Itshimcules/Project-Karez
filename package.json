@@ -1,0 +1,14 @@
+{
+  "name": "amr-system-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "mobile-app",
+    "regional-node",
+    "shared",
+    "blockchain-network"
+  ],
+  "scripts": {
+    "start:node": "npm start --workspace=regional-node"
+  }
+}
